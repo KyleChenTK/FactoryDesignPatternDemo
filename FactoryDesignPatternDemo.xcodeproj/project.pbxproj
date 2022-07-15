@@ -11,6 +11,7 @@
 		E414FD0328815B4D00F3307F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414FD0228815B4D00F3307F /* ViewController.swift */; };
 		E414FD0528815B4E00F3307F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E414FD0428815B4E00F3307F /* Assets.xcassets */; };
 		E414FD0828815B4E00F3307F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414FD0628815B4E00F3307F /* Main.storyboard */; };
+		E414FD1028815B8A00F3307F /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414FD0F28815B8A00F3307F /* ShapeFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E414FD0428815B4E00F3307F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E414FD0728815B4E00F3307F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E414FD0928815B4E00F3307F /* FactoryDesignPatternDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FactoryDesignPatternDemo.entitlements; sourceTree = "<group>"; };
+		E414FD0F28815B8A00F3307F /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E414FD0028815B4D00F3307F /* AppDelegate.swift */,
+				E414FD0F28815B8A00F3307F /* ShapeFactory.swift */,
 				E414FD0228815B4D00F3307F /* ViewController.swift */,
 				E414FD0428815B4E00F3307F /* Assets.xcassets */,
 				E414FD0628815B4E00F3307F /* Main.storyboard */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E414FD1028815B8A00F3307F /* ShapeFactory.swift in Sources */,
 				E414FD0328815B4D00F3307F /* ViewController.swift in Sources */,
 				E414FD0128815B4D00F3307F /* AppDelegate.swift in Sources */,
 			);

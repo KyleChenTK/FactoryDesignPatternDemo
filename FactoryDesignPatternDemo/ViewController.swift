@@ -20,7 +20,25 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-
+    
+    
+    @IBAction func square(_ sender: Any) {
+        
+        createFactory(shape: .square, view: self.view)
+        
+    }
+    
+    @IBAction func circle(_ sender: Any) {
+        
+        createFactory(shape: .circle, view: self.view)
+        
+    }
+    
+    @IBAction func rectangle(_ sender: Any) {
+        
+        createFactory(shape: .rectangle, view: self.view)
+        
+    }
+    
 }
 
